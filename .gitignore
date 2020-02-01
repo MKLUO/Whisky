@@ -338,3 +338,7 @@ ASALocalRun/
 
 # BeatPulse healthcheck temp database
 healthchecksdb
+/Utils/SDK/Print Engine API Samples
+/Utils/SDK/Print Server API Samples
+/Utils
+/ThirdParty
