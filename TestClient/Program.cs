@@ -13,7 +13,8 @@ namespace TestClient {
 
             string code = "";
             while (!string.IsNullOrEmpty(code = Console.ReadLine())) {
-                var client = new RestClient("http://localhost:8080/api/test");
+                var client = new RestClient("http://whisky.com/api/test");
+                //var client = new RestClient("http://localhost:8080/api/test");
                 var request = new RestRequest().AddJsonBody(new { Name = code });
                 Console.WriteLine(client.Post(request));
             }
